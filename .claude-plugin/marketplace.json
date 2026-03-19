@@ -11,15 +11,23 @@
   "plugins": [
     {
       "name": "xgh",
-      "source": "xgh",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ipedro/xgh.git"
+      },
       "description": "The developer's cockpit — memory, compression, context efficiency, and dev methodology",
-      "version": "2.0.0"
+      "version": "2.0.0",
+      "strict": true
     },
     {
       "name": "lossless-claude",
-      "source": "lossless-claude",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ipedro/lossless-claude.git"
+      },
       "description": "Lossless context management — DAG-based summarization that preserves every message",
-      "version": "0.3.0"
+      "version": "0.3.0",
+      "strict": true
     }
   ]
 }
