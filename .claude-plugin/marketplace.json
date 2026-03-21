@@ -25,8 +25,8 @@
         "source": "url",
         "url": "https://github.com/ipedro/lossless-claude.git"
       },
-      "description": "Lossless context management — DAG-based summarization that preserves every message",
-      "version": "0.3.0",
+      "description": "Never lose context again. lossless-claude compresses Claude Code sessions into searchable memory — every message preserved, every insight remembered.",
+      "version": "0.4.0",
       "strict": true
     }
   ]
